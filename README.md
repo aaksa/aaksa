@@ -5,6 +5,6 @@
 ## :sassy_man:  About me
 - :school: I am a `Student` at the Computer Science Faculty Of Muslim University
 - :pen: I love `Writing`  a scientific paper and researching
-- :computer: I am a love designing `UI / UX` for my scientific essay solution (App)
+- :computer: I enjoy designing `UI / UX` for my scientific essay solution (App)
 - :fire: I’m currently learning: `Computer Science` and `Software Engineering`.
 - :nerd_face: Always `learning new things`
