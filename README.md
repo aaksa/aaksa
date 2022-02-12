@@ -10,7 +10,7 @@
 - :nerd_face: Always `learning new things`
   
   <p align="center">
-<a href="https://github.com/aaksa">
+<a align="center" href="https://github.com/aaksa">
   <img height="180em" src="https://github-readme-stats-eight-theta.vercel.app/api?username=aaksa&show_icons=true&theme=algolia&include_all_commits=true&count_private=true"/>
   <img height="180em" src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=aaksa&layout=compact&langs_count=8&theme=algolia"/>
 </a>
