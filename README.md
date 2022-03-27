@@ -2,7 +2,6 @@
 
 <p  align="center"> <img src="https://media4.giphy.com/media/LOnt6uqjD9OexmQJRB/giphy.gif" width="240" height= "230">
   <p align = "center"> 
-  (Use dark theme to find my socials ;)
 
 <a href="https://aakarsh.me" target="_blank"><img align="left" alt="aakarsh.me" width="22px" src="https://github.com/Aakarsh-B/trying-repos/blob/master/www.svg" />
 <a href="https://linkedin.com/in/aksa-nur-irwan-3a3596195" target="_blank"><img align="left" alt="Aakarsh B | LinkedIn" width="22px" src="https://github.com/Aakarsh-B/trying-repos/blob/master/linkedin.svg" />
