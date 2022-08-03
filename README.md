@@ -27,7 +27,7 @@
   <img height="180em" src="https://github-readme-stats-eight-theta.vercel.app/api?username=aaksa&show_icons=true&theme=algolia&include_all_commits=true&count_private=false"/>
 </a>
    <a align="center" href="https://github.com/aaksa">
-  <img height="180em" src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=aaksa&layout=compact&langs_count=8&theme=algolia"/>
+  <img height="180em" src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=aaksa&layout=compact&langs_count=10&theme=algolia"/>
 </a>
   </p>
   
