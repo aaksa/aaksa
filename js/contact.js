@@ -16,7 +16,7 @@ function mapContactDetails() {
             "link": "mailto:aksanurirwan@gmail.com"
         },
         {
-            "icon": "images/svgs/upwork.svg",
+            "icon": "fa fa-envelope",
             "label": "Hire Me",
             "link": "https://www.linkedin.com/in/aksa-nur-irwan-3a3596195/"
         }
