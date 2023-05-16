@@ -26,7 +26,7 @@ function mapProjectsData() {
 
         {
             "title": "Hai Ternak",
-            "image": "images/projects/haiternak.png",
+            "image": "images/projects/haiternak3.png",
             "type": "Open Source",
             "labels": [
                 {
