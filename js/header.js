@@ -81,14 +81,14 @@ function mapSocialLinksData() {
 function mapStatsData() {
     let stats = [
         {
-            "value": "1",
+            "value": "2",
             "text-1": "Years",
             "text-2": "Experience"
         },
         {
-            "value": "5+",
+            "value": "50+",
             "text-1": "Projects Completed",
-            "text-2": "2 Funded Projects"
+            "text-2": "2 Funded Projects from Government"
         },
 
     ];

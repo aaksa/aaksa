@@ -4,6 +4,19 @@ document.addEventListener("DOMContentLoaded", function () {
 
 function mapProjectsData() {
     let projects = [
+
+        {
+            "title": "Unity Games (70 Projects)",
+            "image": "images/projects/Icepanic.png",
+            "type": "Open Source",
+            "labels": [
+                {
+                    "title": "Web",
+                    "link": "https://drive.google.com/drive/folders/1eaaIXb_Zoeex7C8eXuyzFX33tURZV39P?usp=sharing"
+                },
+            ]
+        },
+
         {
             "title": "Hai Dentist",
             "image": "images/projects/haidentist.png",
@@ -133,7 +146,7 @@ function mapProjectsData() {
             } else if (title == "Package") {
                 labelIcon.className = "p-label-icon material-icons";
                 labelIcon.innerHTML = "widgets";
-                labelIcon.style.fontSize = "16px";
+                labelIcon.style.fontSize = "15px";
             }
 
             var labelText = document.createElement("span");

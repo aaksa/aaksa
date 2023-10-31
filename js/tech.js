@@ -4,17 +4,22 @@ document.addEventListener("DOMContentLoaded", function () {
 
 function mapTechData() {
     let tech = [
-
-        {
-            "name": "Kotlin",
-            "icon": "images/tech/flutter.svg",
-            "type": "mobile-tech"
-        },
         {
             "name": "Flutter",
             "icon": "images/tech/flutter.svg",
             "type": "mobile-tech"
         },
+        {
+            "name": "Unity",
+            "icon": "images/tech/unity.svg",
+            "type": "mobile-tech"
+        },
+        {
+            "name": "Kotlin",
+            "icon": "images/tech/flutter.svg",
+            "type": "mobile-tech"
+        },
+
         {
             "name": "Dart",
             "icon": "images/tech/dart.svg",
