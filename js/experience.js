@@ -8,20 +8,41 @@ function mapExperienceData() {
     let exp = [
 
         {
-            "org": "Freelance",
-            "position": "Mobile Developer",
-            "duration": "Dec 2022 - Now ",
+            "org": "Upwork",
+            "position": "Mobile and Game Developer",
+            "duration": "April 2023 - Now ",
             "technologies": [
                 "Flutter",
                 "Unity",
                 "Laravel",
             ],
             "details": [
-                "Built a bunch of cool Unity mini games for android, like 70 of them, covering all sorts of fun genres.",
-                "Developed 3 user-friendly Flutter front-end apps compatible with both iOS and Android platforms",
-                "Dived into the world of augmented reality, building an immersive app using Vuforia and Unity, allowing users to interact with virtual elements in the real world",
+                "Built 85 Unity and 35 Godot games for Android and Ios, spanning diverse genres.",
+
+                "Crafted 20 Flutter apps and games for iOS and Android platforms.",
+
+                "Developed an immersive AR app with Unity and Vuforia for seamless interaction with virtual elements in the real world."
             ]
         },
+
+        {
+            "org": "Gadjah Madah University (Project Based)",
+            "position": "Mobile Developer",
+            "duration": "Nov 2023 - Feb 2024 ",
+            "technologies": [
+                "Flutter",
+            ],
+            "details": [
+
+                "Developed 2 Flutter apps for students and lecturers.",
+
+                "Utilized the Scrum methodology in the development process.",
+                
+                "Integrated APIs from the backend."
+
+            ]
+        },
+
         {
             "org": "Hicolleagues",
             "position": "Mobile Software Engineer",
