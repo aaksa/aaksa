@@ -11,6 +11,7 @@ function mapExperienceData() {
             "org": "Upwork",
             "position": "Mobile and Game Developer",
             "duration": "April 2023 - Now ",
+            "image": "images/exp/upwork.png", // Image file path
             "technologies": [
                 "Flutter",
                 "Unity",
@@ -29,6 +30,7 @@ function mapExperienceData() {
             "org": "Gadjah Madah University (Project Based)",
             "position": "Mobile Developer",
             "duration": "Nov 2023 - Feb 2024 ",
+            "image": "images/exp/ugm.png", // Image file path
             "technologies": [
                 "Flutter",
             ],
@@ -47,6 +49,7 @@ function mapExperienceData() {
             "org": "Hicolleagues",
             "position": "Mobile Software Engineer",
             "duration": "Aug 2022 - Dec 2022",
+            "image": "images/exp/hi.jpeg", // Image file path
             "technologies": [
                 "Kotlin",
                 "Compose",
@@ -69,6 +72,13 @@ function mapExperienceData() {
     for (var i = 0; i < exp.length; i++) {
         var expCard = document.createElement("div");
         expCard.className = "exp-card";
+
+        // Create and append the image element
+        var image = document.createElement("img");
+        image.className = "exp-image";
+        // image.className = "community-logo";
+        image.src = exp[i]["image"]; // Set the image source from the object
+        expCard.appendChild(image);
 
         var expMetaDiv = document.createElement("div");
         expMetaDiv.className = "exp-meta";

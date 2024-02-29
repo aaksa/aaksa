@@ -40,6 +40,13 @@
     font-weight: 700;
 }
 
+.exp-image {
+    width: 150px; /* Adjust the width as needed */
+    height: 150px; /* Automatically adjust the height */
+    margin-right: 20px; /* Adjust the spacing between the image and the text */
+    background-color: transparent;
+}
+
 .exp-tech-list {
     background-color: transparent;
     padding: 0;

@@ -1,6 +1,6 @@
 .projects-div {
-    padding-top: 5%;
-    padding-bottom: 5%;
+    padding-top: 1%;
+    padding-bottom: 1%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -22,6 +22,64 @@
     justify-content: center;
 }
 
+.slider-container {
+    overflow-x: auto; /* Enable horizontal scrolling */
+    overflow-y: hidden; /* Hide vertical scrollbar */
+    white-space: nowrap; /* Prevent items from wrapping */
+    -webkit-overflow-scrolling: touch; /* Enable smooth scrolling on iOS */
+    max-width: 80%; /* Set maximum width to 80% of the screen width */
+    height: auto; /* Define container height */
+    
+}
+/* For Webkit (Chrome, Safari) */
+.slider-container::-webkit-scrollbar-thumb {
+    background-color: #888; /* Color of the scrollbar */
+    border-radius: 4px; /* Rounded corners */
+    height: 40023px; /* Adjust the height of the scrollbar thumb */
+
+}
+
+.slider-container::-webkit-scrollbar {
+   height: 8px;
+}
+
+
+
+.projects2 {
+    display: inline-flex; /* Use inline-flex for horizontal layout */
+    background-color: transparent;
+    justify-content: flex-start; /* Start from the left */
+    scroll-snap-type: x mandatory; /* Snaps to each item */
+    padding-bottom: 10px; /* Add some padding to the bottom to avoid cutting off shadow */
+}
+
+.project-card {
+    position: relative; /* Add relative positioning to establish a positioning context */
+    margin: 1em;
+    background-color: var(--bg);
+    height: 300px;
+    width: 350px;
+    border-radius: 8px;
+    box-shadow: 0px 13px 10px rgba(0, 0, 0, 0.25);
+    transition: 0.5s;
+}
+
+.p-type {
+    margin: 0.5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 6px;
+    background-color: var(--bg-dark);
+    position: absolute;
+    color: var(--primary-green);
+    top: 10px; /* Adjust top position */
+    left: 10px; /* Adjust left position */
+    padding: 5px; /* Adjust padding */
+    transition: 0.5s;
+}
+
+/* 
 .project-card {
     margin: 1em;
     background-color: var(--bg);
@@ -46,12 +104,18 @@
     padding-left: 1%;
     padding-right: 1%;
     transition: 0.5s;
-}
+} */
 
 .p-image-bg {
     border-radius: 8px;
     max-width: 100%; 
+    max-height: 100%;
+    
+    object-fit: contain; /* Ensure the entire image fits within the container */
+
 }
+
+
 
 .p-title {
     color: white;
